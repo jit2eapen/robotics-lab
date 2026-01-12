@@ -1,2 +1,2 @@
 # robotics-lab
-1, Inverse-Kinematics
+1. Inverse-Kinematics
