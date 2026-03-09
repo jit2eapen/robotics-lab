@@ -50,7 +50,7 @@ git clone -b jazzy https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 
 # Go back to workspace root and build with colcon
 cd ~/turtlebot3_ws
-colcon build --symlink-install
+colcon build 
 ```
 ## source your ROS 2 Jazzy environment
 ```bash
