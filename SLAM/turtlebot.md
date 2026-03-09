@@ -39,6 +39,9 @@ source /opt/ros/jazzy/setup.bash
 ## Clone and Build TurtleBot3 Simulations (ROS 2 Jazzy)
 
 ```bash
+# Create workspace
+mkdir -p ~/turtlebot3_ws/src
+
 # Navigate to the src folder of your workspace
 cd ~/turtlebot3_ws/src/
 
