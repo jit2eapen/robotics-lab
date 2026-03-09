@@ -67,15 +67,14 @@ export TURTLEBOT3_MODEL=burger
 # Launch an empty world in Gazebo with TurtleBot3
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
-## source your ROS 2 Jazzy environment
-```bash
-source /opt/ros/jazzy/setup.bash
-```
+
 ## Launch teleop in new terminal
 
 ```bash
 ## source your ROS 2 Jazzy environment
 source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+
 # Set your TurtleBot3 model (burger, waffle, or waffle_pi)
 export TURTLEBOT3_MODEL=burger
 
