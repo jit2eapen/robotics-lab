@@ -55,6 +55,8 @@ colcon build
 ## source your ROS 2 Jazzy environment
 ```bash
 source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+
 ```
 ## Launch TurtleBot3 in Gazebo
 
