@@ -90,7 +90,7 @@ export TURTLEBOT3_MODEL=burger
 # Launch TurtleBot3 in a predefined Gazebo world
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-# Launch Cartographer SLAM for mapping
+# Launch Cartographer SLAM for mapping in new terminal
 ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 ```
 ## Launch teleop in new terminal for mapping
